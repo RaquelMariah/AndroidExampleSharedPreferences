@@ -22,6 +22,7 @@ public class ListaCompras {
         editor.commit();
     }
     public String recuperarItem(){
-        return"";
+
+        return sharedPreferences.getString(CHAVE_NOME,"");
     }
 }

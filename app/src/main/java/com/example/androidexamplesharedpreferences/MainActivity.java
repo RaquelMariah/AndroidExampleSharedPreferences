@@ -42,6 +42,13 @@ public class MainActivity extends AppCompatActivity {
 
             }
         });
+
+        String anotacao = listaCompras.recuperarItem();
+        if(!anotacao.equals("")){
+            editText.setText(anotacao);
+        }else{
+            
+        }
     }
 
 }
