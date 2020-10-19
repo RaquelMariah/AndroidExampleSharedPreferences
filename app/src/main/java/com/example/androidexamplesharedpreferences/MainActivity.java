@@ -47,7 +47,7 @@ public class MainActivity extends AppCompatActivity {
         if(!anotacao.equals("")){
             editText.setText(anotacao);
         }else{
-            
+
         }
     }
 
